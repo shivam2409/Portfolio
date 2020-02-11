@@ -1,0 +1,426 @@
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: weight;
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 0%;
+}
+
+
+.sec-1{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+}
+
+.op-1{
+    display: inline-block;
+    width: 150px;
+    margin: 0;
+    padding: 0%;
+}
+
+.op-2{
+   display: inline-block;
+     margin: 0;
+     width: 150px;
+    padding: 0%;
+}
+.op-3{
+     display: inline-block;
+      margin: 0;
+    padding: 0%;
+}
+
+.op-4{
+     display: inline-block;
+     margin: 0;
+    padding: 0%;
+}
+
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: tomato;
+}
+
+h2{
+    font-weight: 300;
+}
+
+.pera{
+    
+} */
+
+.intro h1,
+h2 {
+  font-weight: 400;
+}
+
+.space {
+  margin-top: 50px;
+  /* margin-bottom: 30px; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.bar-top {
+  margin-left: 170px;
+}
+
+.btn-top {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.btn-cv {
+  margin-top: 20px;
+}
+
+.circle1 {
+  height: 61px;
+  background: url("img/access.png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.circle2 {
+  height: 61px;
+  background: url("img/programmer.png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.circle3 {
+  height: 61px;
+  background: url("img/cogwheels.png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.circle4 {
+  height: 61px;
+  background: url("img/tools-and-utensils.png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.circle5 {
+  height: 61px;
+  background: url("img/programmer\ \(1\).png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.circle6 {
+  height: 61px;
+  background: url("img/screw.png");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.skill {
+  display: flex;
+  margin-top: 2px;
+  margin-left: 30px;
+}
+.icon {
+  flex: 1;
+  display: flex;
+}
+
+.content {
+  margin-top: 10px;
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  flex: 1;
+  padding: 0px 10px;
+  /* font-size: 25px; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.desc {
+  flex: 1;
+  padding: 0px 10px;
+}
+
+.btn-main {
+  background-color: brown;
+  border-radius: 25px;
+  padding: 8px 25px;
+  color: cornsilk;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.btn-main:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.btn-2 {
+  margin: 15px;
+}
+
+header {
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: red;
+}
+
+main {
+  /* height: 500px; */
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+main .main-header {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  /* width: auto;
+  margin: auto; */
+}
+
+.skills .left {
+  flex: 1;
+}
+
+.skills .right {
+  flex: 1;
+}
+/* main .skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.skills .skill .icon{
+    width: 60px;
+    height: 60px;
+    background: #000;
+    grid-row: span 2;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+} */
+
+.heading-2 {
+  text-align: center;
+}
+
+.box-2 {
+  margin-left: 250px;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.box-3 {
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1.5fr 2fr;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box-3 .image-project {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.box-4 {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 2fr 1.5fr;
+  margin-top: 30px;
+  font-size: smaller;
+}
+
+.box-4 .ed-list-1 {
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.box-4 .ed-list-2 {
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.box-5,
+.box-6 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.box-5-left {
+  background: url("img/960x960.jpg");
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.box-5-center {
+  padding: 10px;
+  padding-top: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.box-5-right {
+  background: url("img/design-office-1228893.jpg");
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.review {
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.box-6-center {
+  padding-top: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  height: 100px;
+}
+
+.circle7 {
+  height: 61px;
+  background: url("img/darasir.jpg");
+  width: 62px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.social-bar {
+  display: flex;
+  background-color: #fff;
+  width: 260px;
+  border-radius: 20px;
+  padding-top: 4px;
+}
+
+.social-text {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* .icon-linkedin {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+} */
+
+.icon-linkedin img {
+  height: 40px;
+  width: 40px;
+}
+
+/* .icon-twitter {
+  height: 5\0px;
+  width: 50px;
+  border-radius: 50%;
+} */
+
+.icon-twitter img {
+  height: 40px;
+  width: 40px;
+}
+
+/* .icon-facebook {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+} */
+
+.icon-facebook img {
+  height: 40px;
+  width: 40px;
+}
+
+.foot-menu {
+  padding-left: 225px;
+}
+.foot-menu a {
+  color: darkslateblue;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.email a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
